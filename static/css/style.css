@@ -222,16 +222,18 @@ footer {
     display: flex;
     cursor: pointer;
 }
+
 .menu-card img {
     transition: 1s ease;
 }
+
 .menu-card img:hover {
     -webkit-transform: scale(1.2);
     -ms-transform: scale(1.2);
     transform: scale(1.2);
     transition: 1s ease;
 }
-}
+
 .menu-card h3 {
     font-family: 'Lucida Bright';
     font-weight: 600;
@@ -385,5 +387,3 @@ footer {
     margin-top: 20px;
     margin-bottom: 40px;
 }
-
-
