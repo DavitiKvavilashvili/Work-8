@@ -88,6 +88,20 @@ header li:not(:nth-child(4)):hover {
 
 }
 
+.form-wrapper button {
+    border: 1px solid #056B11;
+    border-radius: 10px;
+    padding: 10px 27px 10px;
+    font-size: var(--size-16);
+    line-height: 19px;
+    cursor: pointer;
+}
+
+.form-wrapper a {
+    text-decoration: none;
+    color: black;
+}
+
 .contact-page-title {
     margin-bottom: 100px;
 }
@@ -121,7 +135,112 @@ header li:not(:nth-child(4)):hover {
     grid-column: 2/3;
 }
 
+/* home  */
+.home-top-box {
+    background: #86350312;
+    position: relative;
+}
 
+.home-box-title {
+    height: 867px;
+}
+
+.home-text h1 {
+    font-size: 54px;
+    line-height: 64px;
+    width: 542px;
+    color: var(--main-color);
+}
+
+.home-text p {
+    color: var(--main-color);
+    font-size: var(--size-24);
+    line-height: 28px;
+    width: 557px;
+}
+
+.home-title {
+    display: flex;
+    margin-top: 107px;
+}
+
+.home-logo {
+    position: absolute;
+    right: 0;
+    margin-top: 100px;
+}
+
+.home-text {
+    display: flex;
+    gap: 43px;
+    flex-direction: column;
+}
+
+.box-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-title-bottom {
+    font-size: 32px;
+    line-height: 38px;
+    color: var(--main-color);
+    border-bottom: 1.5px solid #05520D;
+    margin: 126px 0px 110px;
+    width: 216px;
+    padding-bottom: 21px;
+}
+
+.coffe-card-text {
+    display: flex;
+    align-items: center;
+    gap: 33px;
+    margin: 23px 0 0 5px;
+
+}
+
+.coffe-card-text p {
+    font-size: var(--size-20);
+    line-height: var(--line-height-24);
+    color: var(--title-color);
+    font-weight: var(--fw-bold);
+    text-transform: capitalize;
+}
+
+.coffe-card-text span {
+    font-size: var(--size-15);
+    color: var(--input-color);
+}
+
+.home-button button {
+    font-size: var(--size-18);
+    font-weight: var(--fw-bold);
+    line-height: 21px;
+    border: 2px solid #056B11;
+    border-radius: 15px;
+    padding: 11px 28px;
+    cursor: pointer;
+}
+
+.home-button {
+    text-align: right;
+    margin: 100px 0 156px;
+}
+
+.coffe-card img {
+    cursor: pointer;
+}
+
+.coffe-card img {
+    transition: 1s ease;
+}
+
+.coffe-card img:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 1s ease;
+}
 
 /* footer  */
 footer {
@@ -206,17 +325,6 @@ footer {
     grid-template-columns: repeat(2, 1fr);
     gap: 80px;
 }
-
-/* .grow img {
-   
-}
-
-.grow img:hover {
-    -webkit-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    transform: scale(1.2);
-    transition: 1s ease;
-} */
 
 .menu-card {
     display: flex;
